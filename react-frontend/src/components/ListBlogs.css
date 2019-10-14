@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+.Blog-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.Blog-container-title {
+    background-color: white;
+    font-family: 'Oswald', sans-serif;
+    width: 340px;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1400px){
+    .Blog-container-title {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 1300px){
+    .Blog-container-title {
+        width: 780px;
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .Blog-container-title {
+        margin-left: 0;
+    }
+}

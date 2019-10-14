@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+.Project-title {
+    margin-top: 90px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    text-transform:  uppercase;
+}
+
+.Project-container { 
+    display: flex;
+    margin-top: 50px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.Project-subtitle {
+    display: block;
+    margin-top: 50px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.Project-container div:nth-child(1){
+    background-color: #8554F4;
+}
+
+.Project-container div:nth-child(1):hover{
+    background-color: darkslateblue;
+
+}
+
+.Project-container div:nth-child(2){
+    background-color: #B954F4;
+}
+
+.Project-container div:nth-child(2):hover{
+    background-color: purple;
+}
+
+
+.Project-container div:nth-child(3){
+    background-color: #550584;
+}
+
+.Project-container div:nth-child(3):hover{
+    background-color: rgb(51, 4, 79);
+}
+
+.Project-box {
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-family: 'Oswald', sans-serif;
+    width: 250px;
+    height: 150px;
+    opacity: .72;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.Project-box h3 {
+    padding-top: 15px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .Project-container { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+
+    .Project-box {
+        width: 60%;
+        height: 150px;
+    }
+
+}

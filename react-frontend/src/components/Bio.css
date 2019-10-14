@@ -1,0 +1,30 @@
+.Bio-Content {
+    margin-top: -15px;
+}
+
+.Bio {
+    padding-top: 60px;
+    padding-left: 250px;
+    padding-right: 200px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Helvetica Neue';
+    color: gray;
+
+}
+
+@media only screen and (max-width: 1300px){
+
+    .Bio {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+
+    .Bio {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}

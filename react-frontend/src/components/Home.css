@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+.Body {
+    min-width: 600px;
+}
+
+.Header {
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    background-color:#B954F4;
+}
+
+.HomeContent {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.Home-HeaderContent {
+    width: 300px;
+}
+
+#NavLogo-mini {
+    display: none;
+}
+
+.Home-title {
+    font-family: 'Helvetica Neue';
+    font-weight: 100;
+    font-size: 70px;
+    text-align: start;
+    text-transform: uppercase;
+    color: white;
+    width: 800px;
+    height: 70px;
+    margin-top: 100px;
+    margin-bottom: 0;
+
+}
+
+.Home-subtitle {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 250px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 5px;
+    width: 200px;
+    letter-spacing: 2px;
+}
+
+#DestinyJ {
+    width: 450px;
+    margin-left: 30%;
+    margin-top: 56px;
+}
+
+
+.Home-BottomContent {
+    background-color:  #F4F2F2;
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.Home-BottomContent-Two {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1300px){
+    .Home-title{
+        margin-left: 70px;
+    }
+
+    .Home-BottomContent-Two{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    .Header {
+        width: 100%;
+    }
+    .Home-title{
+        margin-top: 10px;
+        margin-left: 140px;
+    }
+    .Header {
+        height: 627px;
+        margin: 0 auto;
+    }
+    .HomeContent {
+        display: flex;
+        flex-direction: column;
+    }
+    .Home-BottomContent {
+        width: 100%;
+    }
+
+    #NavLogo-mini {
+        display: block;
+        display:flex;
+        margin-left: 350px;
+        margin-top: 10px;
+    }
+
+    #CodeDestinee-mini {
+        width: 80px;
+        height: 80px;
+        margin-top: 12px;
+    }
+
+    #LogoName-mini {
+        font-size: 25px;
+        text-transform: uppercase;
+        font-family: 'Helvetica Neue';
+        margin-left: 10px;
+    }
+
+    #DestinyJ {
+        margin-top: 0px;
+    }
+
+  
+    
+}
+
+
+
+@media only screen and (max-width: 800px){
+    .Home-title{
+       margin: 0 auto;
+       padding-left: 30px;
+    }
+
+    #NavLogo-mini {
+        justify-content: center;
+    }
+
+    #DestinyJ {
+        margin: 0 auto;
+    }
+
+    .Header {
+        height: 617px;
+    }
+}

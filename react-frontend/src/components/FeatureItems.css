@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+.Feature-itemstyle{
+    background-color: white;
+    position: relative;
+    width: 870px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+.Feature-img {
+    width: 100%;
+    height: 350px;
+}
+
+.Feature-tag {
+    position: absolute;
+    top: 200px;
+    width: 200px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+.Feature-title {
+    position: absolute;
+    top: 240px;
+    left: 20px;
+    width: 350px;
+    font-size: 32px;
+    font-family:  'Helvetica Neue';
+    color: white;
+    font-weight: 300;
+}
+
+.Feature-blurb {
+    width: 840px;
+    height: 200px;
+    text-align: center;
+    margin-top: -5px;
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 300;
+    font-size: 18px;
+    background-color: white;
+    font-family:  'Helvetica Neue';
+    line-height: 1.5;
+}
+
+.Feature-link {
+    text-decoration: none;
+    display: block;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+.Feature-link:hover {
+    color: #B954F4;
+}
+
+@media only screen and (max-width: 1400px){
+    .Feature-itemstyle{
+        width: 600px;
+        margin-right: 0;
+    }
+
+    .Feature-img {
+        width: 600px;
+        height: 350px;
+    }
+
+    .Feature-blurb { 
+        width: 570px;
+        height: 300px;
+    }
+
+   
+
+}
+
+@media only screen and (max-width: 1300px){
+    .Feature-itemstyle{
+        width: 800px;
+    }
+
+    .Feature-img {
+        width: 800px;
+        height: 350px;
+    }
+
+    .Feature-blurb { 
+        width: 770px;
+        height: 200px;
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+
+    .Feature-link {
+        text-align: center;
+        display: block;
+       
+    }
+
+}
+
+
+
+@media only screen and (max-width: 1100px){
+    .Feature-itemstyle{
+        width: 800px;
+    }
+
+    .Feature-img {
+        width: 800px;
+        height: 350px;
+    }
+
+    .Feature-blurb { 
+        width: 770px;
+        height: 300px;
+    }
+
+    .Feature-link {
+        text-align: center;
+        display: block;
+        font-size: 18px;
+       
+    }
+
+}
+
+@media only screen and (max-width: 800px){
+    .Feature-itemstyle{
+       width: 100%;
+     
+    }
+
+    .Feature-img {
+        width: 100%;
+    }
+
+    .Feature-blurb { 
+        width: 745px;
+    }
+  
+
+
+}

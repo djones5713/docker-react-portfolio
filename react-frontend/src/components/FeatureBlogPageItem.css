@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+.FeatureBlog-itemstyle{
+    background-color: white;
+    position: relative;
+    width: 780px;
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+.FeatureBlog-img {
+    width: 780px;
+    height: 400px;
+}
+
+.FeatureBlog-tag {
+    position: absolute;
+    top: 200px;
+    width: 200px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+    color: white
+}
+
+.FeatureBlog-title {
+    position: absolute;
+    top: 240px;
+    left: 20px;
+    width: 350px;
+    font-size: 32px;
+    font-family:  'Helvetica Neue';
+    color: white;
+    font-weight: 300;
+}
+
+.FeatureBlog-tag-description {
+    background-color: #550584;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    width: 100px;
+    text-align: center;
+    margin-top: 143px;
+    color: white;
+}
+
+.FeatureBlog-link {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    width: 80px;
+    left: 20px;
+    top: 350px;
+}
+
+.Feature-link:hover {
+    color: #B954F4;
+
+}
+
+@media only screen and (max-width: 1300px) {
+
+    .FeatureBlog-itemstyle{
+        width: 580px;
+    }
+    
+    .FeatureBlog-img {
+        width: 580px;
+    }
+
+}
+
+@media only screen and (max-width: 1100px) {
+
+    .FeatureBlog-itemstyle{
+        width: 100%;
+        margin-top: -16px;
+    }
+
+    .FeatureBlog-img {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    .FeatureBlog-itemstyle{
+        width: 100%;
+        margin-top: 120px;
+    }
+
+    .FeatureBlog-img {
+        width: 100%;
+    }
+
+}

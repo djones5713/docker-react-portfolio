@@ -1,0 +1,41 @@
+.Contact-Header {
+    width: 90%;
+    height: 630px;
+    margin: 0 auto;
+    background-color:#B954F4;
+}
+
+.Contact-Content {
+    padding-top: 40px;
+    height: 630px;
+    background-color:#B954F4;
+}
+
+.Contact-Img-Box-Title{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Helvetica Neue';
+    font-weight: 300;
+    font-size: 50px;
+    margin-bottom: 14px;
+    color: white;
+}
+
+.Contact-Img-Box {
+    background-color:#B954F4;
+    width: 100%;
+    height: 419px;
+}
+
+.Contact-img {
+    display: block;
+    margin: 0 auto;
+    width: 550px;
+    height: 343px;
+}
+
+@media only screen and (max-width: 1100px){
+    .Contact-Header {
+        width: 100%;
+    }
+}

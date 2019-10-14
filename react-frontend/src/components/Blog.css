@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+.Blog-Header {
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    background-color:#B954F4;
+
+}
+
+.Blog-Content {
+    display: flex;
+}
+
+.Blog-Feature-Title{
+    font-size: 65px;
+    margin-top: 100px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.Blog-Feature-Subtitle {
+    margin-top: 0;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+@media only screen and (max-width: 1100px) {
+
+    .Blog-Header {
+        width: 100%;
+
+    } 
+
+    .Blog-Content {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+}
+
+

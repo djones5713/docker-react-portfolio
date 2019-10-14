@@ -1,0 +1,84 @@
+#Navigation {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    justify-content: flex-end;
+    font-family: 'Helvetica Neue';
+    /* background-color: yellow; */
+}
+
+#NavLogo {
+    display: flex;
+    width: 75%;
+    /* background-color: orange; */
+}
+
+#CodeDestinee {
+    width: 60px;
+    height: 60px;
+}
+
+#LogoName {
+    margin-left: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #5B367B;
+}
+
+#Navbar {
+    width: 700px;
+}
+
+.NavLink {
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+    color: #5B367B;
+    font-weight: 700;
+}
+
+.NavLink:hover {
+    color: #B954F4;
+}
+
+#SearchIcon {
+    width: 20px;
+    visibility: hidden;
+}
+
+#Navigation-mini {
+    width: 90%;
+    height: 60px;
+    margin: 0 auto;
+    display: none;
+    background-color: #5B367B;
+}
+
+.Mini-nav {
+    width: 40px;
+    height: 40px;
+   margin: 0 auto;
+}
+
+.button-nav {
+    background-color: #5B367B;
+    border: none;
+}
+
+@media only screen and (max-width: 1100px){
+
+
+    #Navigation {
+        display: none;
+    }
+    
+    #NavLogo {
+        display: none;
+    }
+
+    #Navigation-mini{
+        display: block;
+        width: 100%;
+    }
+}

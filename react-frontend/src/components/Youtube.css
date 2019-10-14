@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+.Youtube-Container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width:  100%;
+   
+}
+
+.Youtube-Container a {
+    text-decoration: none;
+}
+.Youtube-Header {
+    width: 400px;
+}
+
+.Youtube-Title {
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 65px;
+    margin-bottom: 0;
+}
+
+.Youtube-Title:hover {
+    color: #B954F4;
+}
+
+.Youtube-Subtitle:hover {
+    color: #B954F4;
+}
+
+.Youtube-Subtitle {
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 0;
+    font-size: 35px;
+}
+
+.Youtube-Box {
+    width: 800px;
+    height: 400px;
+    background-color: #000000;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 1400px) {
+
+    .Youtube-Box {
+        width: 600px;
+    }
+
+    .Youtube-Header {
+        width: 350px;
+    }
+
+}
+
+@media only screen and (max-width: 1300px) {
+
+    .Youtube-Container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .Youtube-Header {
+       width: 800px;
+       display: flex;
+       justify-content: center;
+    }
+
+    .Youtube-Title {
+        margin-left: 20px;
+    }
+    
+    
+    .Youtube-Subtitle {
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+        font-size: 65px;
+        margin-bottom: 0;
+        margin-top: 45px;
+        margin-left: 20px;
+      
+    }
+
+
+    .Youtube-Box {
+        width: 800px;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    .Youtube-Box {
+        width: 780px;
+    }
+
+}

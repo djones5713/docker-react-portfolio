@@ -1,0 +1,22 @@
+.Navmenu {
+    display: flex;
+    flex-direction: column;
+}
+
+.NavLink-mini {
+    text-decoration: none;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    z-index: 2;
+    text-align: center;
+    border: 1px solid #B954F4;
+    font-family: 'Helvetica Neue';
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.NavLink-mini:hover{
+    color: black;
+}

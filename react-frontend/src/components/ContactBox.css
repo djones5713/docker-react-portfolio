@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+.Contact-Box {
+    background-color: #FDFDFD;
+    width: 100%;
+    height: 470px;
+    border: 1px solid #B954F4;
+    margin: 0 auto;
+}
+
+.Contact-Title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Helvetica Neue';
+    font-weight: 300;
+    font-size: 30px;
+    margin-top: 20px;
+    color:#B954F4;
+}
+
+.Left {
+    margin-right: 10px;
+}
+
+.Contact-Top-Input {
+    display: flex;
+    justify-content: center;
+}
+
+.Contact-Bottom-Input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Contact-Input-Title {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 100px;
+}
+
+.Contact-Input-Message {
+    width: 500px;
+    height: 150px;
+    border: 1px solid #B954F4;
+}
+
+.Contact-Input-subtitle {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.Contact-Input-subtitle-message {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.Contact-Input {
+    width: 250px;
+    height: 30px;
+    border: 1px solid #B954F4;
+}
+
+.Contact-Button {
+    background-color: #B954F4;
+    border: none;
+    margin-top: 30px;
+    height: 30px;
+    width: 300px;
+    color: white;
+}
+
+
+@media only screen and (max-width: 800px){
+    .Contact-Box {
+        background-color: #FDFDFD;
+        height: 570px;
+   
+    }
+    .Contact-Top-Input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Contact-Input {
+        width: 500px;
+    }
+}

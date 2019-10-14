@@ -1,0 +1,42 @@
+.Blog-itemstyle {
+    background-color: white;
+    width: 340px;
+    height: 50px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.Blog-title {
+    font-family: 'Helvetica Neue';
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.Blog-title:hover {
+    text-decoration: underline;
+    color: #B954F4;
+  
+}
+
+@media only screen and (max-width: 1400px){
+    .Blog-itemstyle {
+        margin-left: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 1300px) {
+    .Blog-itemstyle {
+        width: 780px;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .Blog-itemstyle {
+       margin: 0 auto;
+    }
+
+}
