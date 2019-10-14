@@ -2,16 +2,17 @@ version: '3'
 
 services:
   web:
+    container_name: react-fronted
     build:
       context: .
       dockerfile: Dockerfile
-    environment:
-      - NODE_ENV=production
-    command: npm start
-    ports:
-      - 3000:3000
     volumes:
-      -.:/app
+      -'.:/app'
+      -'/app/node_modules'
+    ports:
+      - 3001:3000
+    environment:
+      - NODE_ENV=development
   # Database
   db:
     image: mysql:5.7
