@@ -1,6 +1,6 @@
 FROM node:12.2.0-alpine
 
-WORKDIR /react-frontend/src/app
+WORKDIR /react-frontend
 
 RUN npm install
 
