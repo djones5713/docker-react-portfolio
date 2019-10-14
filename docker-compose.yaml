@@ -2,13 +2,12 @@ version: '3'
 
 services:
   web:
-    container_name: react-fronted
     build:
       context: .
       dockerfile: Dockerfile
     volumes:
       ['.:/app']
-      ['/app/node_modules']
+    command: npm start
     ports:
       - 3001:3000
     environment:
