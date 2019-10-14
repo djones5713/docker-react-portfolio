@@ -1,10 +1,10 @@
 FROM node:12.2.0-alpine
 
-WORKDIR /usr/src/app
+WORKDIR /react-frontend/src/app
 
 RUN npm install
 
-COPY /src /app/src
+COPY /react-frontend/src/app
 
 COPY ["package.json", "package-lock.json*", "./"]
 
