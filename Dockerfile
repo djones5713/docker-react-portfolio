@@ -2,11 +2,11 @@ FROM node:12.2.0-alpine
 
 WORKDIR /usr/src/app
 
-COPY package*.json ./
-
 RUN npm install
 
-COPY ..
+COPY /src /app/src
+
+COPY ["package.json", "package-lock.json*", "./"]
 
 EXPOSE 3000
 
